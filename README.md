@@ -1,0 +1,3 @@
+# C++ example
+
+Building c++ code with Wercker....

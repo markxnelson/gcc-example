@@ -1,0 +1,9 @@
+# build c++ program 
+
+box: quay.io/markxnelson/gnu-toolchain
+
+build:
+  steps:
+    - script:
+      code: |
+        gcc -o main main.cc
