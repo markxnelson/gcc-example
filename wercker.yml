@@ -1,6 +1,10 @@
 # build c++ program 
 
-box: quay.io/markxnelson/gnu-toolchain
+box: 
+  id: quay.io/markxnelson/gnu-toolchain
+  tag: latest
+  username: $QUAY_USERNAME
+  password: $QUAY_PASSWORD
 
 build:
   steps:
